@@ -3,6 +3,11 @@ body {
     margin: 0;
 }
 
+a, a:visited, a:hover, a:active {
+    text-decoration: none;
+    color: inherit;
+}
+
 .links, .footer, .secondary-text, .img-placeholder {
     font-size: 18px;
     color: #E5E7EB;
