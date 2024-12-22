@@ -41,8 +41,12 @@ body {
     margin: 0 auto;
     display: flex;
     gap: 50px;
+    padding-bottom: 100px;
 }
 
+.secondary-text {
+    margin-bottom: 10px;
+}
 .main-text {
     font-size: 48px;
     color: #F9FAF8;
@@ -53,7 +57,7 @@ body {
     flex: 1 0 auto;
     width: 500px;
     height: 200px;
-    background-color: gray;
+    background-color: #6d747d;
     display: flex;
     justify-content: center;
     align-items: center
@@ -62,16 +66,116 @@ body {
 .main-sign-up {
     color: white;
     background-color: #3882F6;
-    border-radius: 4px;
+    border-radius: 8px;
     border: none;
     font-weight: bold;
-    padding: 4px 32px;
+    padding: 8px 32px;
     
+}
+
+.containers {
+    display: flex;
+    justify-content: center;
+    gap: 52px;
+}
+
+.container {
+    max-width: 150px;
+}
+
+.info-title {
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900;
+    text-align: center;
+    padding: 50px 0;
+}
+
+.image {
+    border-style: solid;
+    border-width: 4px;
+    border-radius: 16px;
+    border-color: #3882F6;
+   
+    height: 150px;
+    width: 150px;
+}
+
+.image-subtext {
+    color: #586069;
+}
+
+.info {
+    padding-bottom: 100px;
+}
+
+
+.quote-container {
+    background-color: #E5E7EB;
+}
+
+.quote {
+    width: 725px;
+    margin: 0 auto;
+    padding: 100px 0;
+}
+
+em {
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 300;
+}
+
+.author  {
+    font-size: 24px;
+    font-weight: bold;
+    text-align: right;
+    color: #1F2937;
+}
+
+.call-to-action {
+    background-color: #3882F6;
+    width: 1000px;
+    display: flex;
+    padding: 40px 0;
+    margin: 0 auto;
+    justify-content: center;
+    border-radius: 8px;
+    gap: 100px;
+    align-items: center;
+}
+
+.action {
+    padding: 100px 0;
+}
+
+.action-heading {
+    font-size: 24px;
+    color: #F9FAF8;
+    font-weight: bold;
+    
+}
+
+.sign-up-text {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.sign-up {
+    font-size: 18px;
+    color: white;
+    font-weight: bold;
+    border-style: solid;
+    background-color: #3882F6;
+    border-color: white;
+    border-radius: 8px;
+    height: 36px;
+    padding: 0 32px;
 }
 
 .footer {
     display: flex;
     justify-content: center;
     align-items: center;
+    padding: 50px 0;
 }
-
