@@ -35,14 +35,14 @@ a, a:visited, a:hover, a:active {
 .header {
     display: flex;
     justify-content: space-between;
-    width: 1000px;
+    width: 65%;
     margin: 0 auto;
     padding-top: 10px;
     padding-bottom: 100px;
 }
 
 .main {
-    width: 1000px;
+    width: 65%;
     margin: 0 auto;
     display: flex;
     gap: 50px;
@@ -66,6 +66,7 @@ a, a:visited, a:hover, a:active {
     display: flex;
     justify-content: center;
     align-items: center
+    
 }
 
 .main-sign-up {
@@ -80,8 +81,9 @@ a, a:visited, a:hover, a:active {
 
 .containers {
     display: flex;
-    justify-content: center;
-    gap: 52px;
+    width: 50%;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
 }
 
 .container {
@@ -101,17 +103,21 @@ a, a:visited, a:hover, a:active {
     border-width: 4px;
     border-radius: 16px;
     border-color: #3882F6;
-   
     height: 150px;
     width: 150px;
+    margin-bottom: 5px;
 }
 
 .image-subtext {
     color: #586069;
+    text-align: center;
 }
 
 .info {
     padding-bottom: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 
@@ -120,7 +126,7 @@ a, a:visited, a:hover, a:active {
 }
 
 .quote {
-    width: 725px;
+    width: 50%;
     margin: 0 auto;
     padding: 100px 0;
 }
@@ -140,9 +146,9 @@ em {
 
 .call-to-action {
     background-color: #3882F6;
-    width: 1000px;
+    width: 55%;
     display: flex;
-    padding: 40px 0;
+    padding: 40px 5%;
     margin: 0 auto;
     justify-content: center;
     border-radius: 8px;
@@ -174,8 +180,8 @@ em {
     background-color: #3882F6;
     border-color: white;
     border-radius: 8px;
-    height: 36px;
-    padding: 0 32px;
+    height: auto;
+    padding: 8px 32px;
 }
 
 .footer {
